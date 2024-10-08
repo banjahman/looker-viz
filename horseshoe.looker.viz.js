@@ -11,7 +11,7 @@ const visObject = {
   * Configuration options for your visualization. In Looker, these show up in the vis editor
   * panel but here, you can just manually set your default values in the code.
   **/
-  svg: document.createElementNS('http://www.w3.org/2000/svg', 'svg'),
+  
   options: {
     first_option: {
     	type: "string",
