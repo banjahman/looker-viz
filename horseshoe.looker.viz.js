@@ -61,6 +61,8 @@ const visObject = {
         svg.appendChild(meterPath);
         // Append the SVG to the container element
         element.appendChild(svg);
+
+		element.innerHTML = 'DOES THIS WORK?';
     },
     updateAsync(data, element, config, queryResponse, details, doneRendering) {
         // get the new value
